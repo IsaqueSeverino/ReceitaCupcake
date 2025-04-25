@@ -5,14 +5,15 @@
 }
 
 body {
-    background-image: url('Assets/cupcake.jpg');
-    background-size: cover;
+    background-image: url('Assets/cupcake-tela-fundo.jpg');
+    background-size: 110% 110%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 30px;
     padding-left: 300px;
     padding-right: 300px;
+    font-size: 1.5rem;
 }
 
 .Card {
@@ -21,7 +22,7 @@ body {
     flex-direction: column;
     background-color: #F0E8C2;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .Heard {
@@ -56,20 +57,19 @@ body {
 
 .Main>p {
     font-family: 'Alice', serif;
-    font-size: 16px;
+    font-size: 1rem;
     padding-bottom: 10px;
     color: #573A37;
 }
 
 .Main>span {
     font-family: 'Alice', serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #573A37;
 }
 
 .Ingredientes > h2{
     font-family: 'Alice', serif;
-    font-size: 24px;
     color: #291B1A;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ body {
 
 .Ingredientes > ul {
     font-family: 'Alice', serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #573A37;
     list-style-position: inside;
     padding-left: 8px;
@@ -92,14 +92,13 @@ body {
 
 .Preparo > h2 {
     font-family: 'Alice', serif;
-    font-size: 24px;
     color: #291B1A;
     padding-top: 20px;
 }
 
 .Preparo > p {
     font-family: 'Alice', serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #573A37;
     padding-top: 20px;
 }
@@ -115,6 +114,6 @@ body {
 
 .Final > span {
     font-family: 'Alice', serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #F0E8C2;
 }
