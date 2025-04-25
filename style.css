@@ -66,3 +66,55 @@ body {
     font-size: 16px;
     color: #573A37;
 }
+
+.Ingredientes > h2{
+    font-family: 'Alice', serif;
+    font-size: 24px;
+    color: #291B1A;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    gap: 4px;
+}
+
+.Ingredientes > ul {
+    font-family: 'Alice', serif;
+    font-size: 16px;
+    color: #573A37;
+    list-style-position: inside;
+    padding-left: 8px;
+}
+
+.Ingredientes > ul > li {
+    padding: 7px;
+}
+
+.Preparo > h2 {
+    font-family: 'Alice', serif;
+    font-size: 24px;
+    color: #291B1A;
+    padding-top: 20px;
+}
+
+.Preparo > p {
+    font-family: 'Alice', serif;
+    font-size: 16px;
+    color: #573A37;
+    padding-top: 20px;
+}
+
+.Final {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Final > span {
+    font-family: 'Alice', serif;
+    font-size: 16px;
+    color: #F0E8C2;
+}
