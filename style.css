@@ -34,7 +34,7 @@ body {
 
 .Heard>img {
     width: 1100px;
-    height: 600px;
+    height: auto;
     border-radius: 24px;
 }
 
@@ -68,7 +68,7 @@ body {
     color: #573A37;
 }
 
-.Ingredientes > h2{
+.Ingredientes>h2 {
     font-family: 'Alice', serif;
     color: #291B1A;
     display: flex;
@@ -78,7 +78,7 @@ body {
     gap: 4px;
 }
 
-.Ingredientes > ul {
+.Ingredientes>ul {
     font-family: 'Alice', serif;
     font-size: 1rem;
     color: #573A37;
@@ -86,17 +86,17 @@ body {
     padding-left: 8px;
 }
 
-.Ingredientes > ul > li {
+.Ingredientes>ul>li {
     padding: 7px;
 }
 
-.Preparo > h2 {
+.Preparo>h2 {
     font-family: 'Alice', serif;
     color: #291B1A;
     padding-top: 20px;
 }
 
-.Preparo > p {
+.Preparo>p {
     font-family: 'Alice', serif;
     font-size: 1rem;
     color: #573A37;
@@ -112,8 +112,85 @@ body {
 
 }
 
-.Final > span {
+.Final>span {
     font-family: 'Alice', serif;
     font-size: 1rem;
     color: #F0E8C2;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+    body {
+        padding-left: 100px;
+        padding-right: 100px;
+        background-size: cover;
+    }
+
+    .Heard > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Celulares grandes e médios */
+@media (max-width: 768px) {
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.2rem;
+    }
+
+    .Heard > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Main {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .Main > h1 {
+        font-size: 28px;
+    }
+
+    .Ingredientes > h2,
+    .Preparo > h2 {
+        font-size: 22px;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1rem;
+    }
+
+    .Main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Main > h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .Heard > img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+    .Final {
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+
+    .Final > span {
+        text-align: center;
+        font-size: 0.9rem;
+    }
 }
